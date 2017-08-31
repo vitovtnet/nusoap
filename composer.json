@@ -1,0 +1,21 @@
+{
+  "name": "vitovtnet/nusoap",
+  "version": "0.1",
+  "type": "library",
+  "description": "NuSoap Repository for Composer with some fixes",
+  "authors": [
+    {
+      "name": "Viktar Kamiahin",
+      "email": "vitovt@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["nusoap", "php", "composer"],
+  "homepage": "https://github.com/vitovtnet/nusoap",
+  "autoload": {
+    "classmap": [
+      "lib/"
+    ]
+  },
+  "minimum-stability": "dev"
+}
