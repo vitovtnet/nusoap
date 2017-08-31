@@ -4803,10 +4803,7 @@ class wsdl extends nusoap_base
                         for ($ii = 0; $ii < count($list2); $ii++) {
                             if (!$list2[$ii]['loaded']) {
                                 //$this->schemas[$ns]->imports[$ns2][$ii]['loaded'] = TRUE;
-
                                 $this->schemas[$ns][$ns2]->imports[$ns2][$ii]['loaded'] = true;
-
-
                                 $url = $list2[$ii]['location'];
                                 if ($url != '') {
                                     $urlparts = parse_url($url);
