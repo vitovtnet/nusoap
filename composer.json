@@ -1,6 +1,6 @@
 {
   "name": "vitovtnet/nusoap",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "library",
   "description": "NuSoap Repository for Composer with some fixes",
   "authors": [
